@@ -1,0 +1,10 @@
+/* Here do to include the fonts in the the css file and then use it in xml file*/
+
+@font-face{
+    font-family: "PlayfairDisplay"; /* PlayfairDisplay >> any name*/
+    src: url(/app_one/static/src/fonts/LexendGiga-ExtraBold.ttf);    
+}
+@font-face{
+    font-family: "LexendGiga";
+    src: url(/app_one/static/src/fonts/LexendGiga-Bold.ttf);    
+}

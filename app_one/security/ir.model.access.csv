@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_students,access_students,model_students,app_one.student_manger_group,1,1,1,1
+access_students,access_students,model_students,app_one.student_user_group,1,1,1,1
+access_country_manager,country_manager,model_country,,1,1,1,1
+access_subjects_manager,subjects_manager,model_subjects,,1,1,1,1
+access_students_history_manager,students_history_manager,model_students_history,,1,1,1,1
+access_change_state_manager,change_state_manager,model_change_state,,1,1,1,1
+access_custom_sales_dashboard_manager,custom_sales_dashboard_manager,model_custom_sales_dashboard,,1,1,1,1

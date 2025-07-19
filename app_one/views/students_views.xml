@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <!-- View students View Tree -->
+    <record id="view_students_tree" model="ir.ui.view">
+        <field name="name">view.students.tree</field>   
+        <field name="model">students</field>
+        <field name="arch" type="xml">
+            <tree class="header_custom" decoration-danger="(is_gradute)">   
+                <field name="no" string="Number"/>
+                <field name="name"/>
+                <field name="desc" string="Description"/>   
+                <field name="country_id"/>      
+                <field name="age"/>              
+                <field name="major"/>
+                <field name="is_married"/>
+                <field name="subjects_ids"/>                
+                <field name="active" invisible="1"/>
+                <field name="is_gradute" invisible="1"/>                      
+                <field name="date_of_birth" optional="1"/>   
+            </tree>
+        </field>
+    </record>
+
+    <!-- View students Form -->
+    <record id="view_students_form" model="ir.ui.view">
+        <field name="name">view.students.form</field>
+        <field name="model">students</field>
+        <field name="arch" type="xml">
+            <form string="students" >   
+                <sheet>
+                    <!-- Add Smart Button-->
+                    <div name="button_box" class="oe_button_box">
+                        <button name="action_open_related_country" type="object"
+                                icon="fa-search" string="Country Details" invisible="not country_id" /> <!-- invisible="not country_id" it means if this student not related to any country don't show this button. the attribute icon="fa-search" can set another value as fa-user  (search more) -->                   
+                    </div>                                        
+                    
+                    <!-- Add Web Ribbon-->
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active" />
+                    <widget name="web_ribbon" title="Graduate Student" bg_color="text-bg-success" invisible="state != 'graduate'" />
+
+                    <header>                       
+                        <button name="action_new"  type="object" class="btn-primary" string="Set To New"  invisible="state in ('new', 'graduate')"/>    <!-- invisible="state == 'new'" is the same for invisible="state in ('new')" but the last used when you have more than one conditions -->
+                        <button name="action_env"  type="object" class="btn-primary" string="action env"/>
+                        <button name="action_demonstrator"  type="object" class="btn-secondary" string="Set To Demonstrator" invisible="state != 'new'"/>
+                        <button name="action_graduate"  type="object" class="btn-success" string="Set To Graduate" invisible="state == 'graduate' and state != 'new'"/>
+                        <field name="state" widget="statusbar"/>   options="{'clickable': True}" if you want from user change the state by self use this attribute :  clickable , if you want to write code to implement the system auto change the state                                                                                                
+                    </header>
+
+                    <div class="oe_title">
+                        <label for="ref"/>
+                        <h1>
+                            <field name="ref"/>
+                        </h1>
+
+                        <label for="name"/>
+                        <h3>
+                            <field name="name" placeholder="Name..." readonly="state == 'graduate'"/>
+                        </h3>                        
+                    </div>
+
+                    <group name="name" string="Registry Information">
+                        
+                        <group name="basic_info" string="Basic Information">
+                            <field name="no" placeholder="Number..." readonly="state == 'graduate'"/>
+                            <field name="major" placeholder="Your Major..." readonly="state == 'graduate'"/>     
+                            <field name="age" placeholder="Your Age..." readonly="state == 'graduate'"/>  
+                            <field name="country_id" readonly="state == 'graduate'"/>                  
+                            <field name="student_city" readonly="state == 'graduate'"/>                  
+                        </group>
+
+                        <group name="additional_info" string="Additional Information">
+                            <field name="date_of_birth" placeholder="Date Of Birth..." readonly="state == 'graduate'"/>
+                            <field name="desc" placeholder="Description..." required="0" groups="app_one.student_manger_group"/>  <!-- required="1" is constrain implemented in presentation tier -->
+                            <field name="is_married" placeholder="IS Married..." readonly="state == 'graduate'"/> 
+                            <field name="active" string="Archive Record" readonly="state == 'graduate'"/> 
+                            <field name="is_gradute" invisible="1"/>
+                        </group>
+
+                        <group name="subjcts" string="Subjects">
+                            <field name="subjects_ids"  widget="many2many_tags" readonly="state == 'graduate'"/>                            
+                        </group>
+                        
+                    </group>                    
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>          
+        </field>
+    </record>
+
+
+    <!-- View students search -->
+    <record id="view_students_search" model="ir.ui.view">
+        <field name="name">view.students.search</field>
+        <field name="model">students</field>
+        <field name="arch" type="xml">
+            <search>
+                <!-- Custom Search By-->
+                <field name="name" />
+                <field name="is_married" />
+                <field name="major" />
+
+                 <!-- Custom Group By-->
+                <group expand="1" string="Group By">
+                    <filter string="Major" name="major"  context="{'group_by':'major'}"/>  <!-- domain="[]"-->
+                </group>
+                
+                 <!-- Custom Filters Conditions-->
+                <group expand="1" string="Filters">
+                    <filter string="With Married" name="is_married" domain="[('is_married' , '=' , 'True')]" />           <!-- context="{'group_by':'name'}"-->
+                </group>
+            </search>
+        </field>
+    </record>
+
+
+    <!-- Window Action students -->
+    <record id="action_students" model="ir.actions.act_window">
+        <field name="name">students</field>        
+        <field name="res_model">students</field>    
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                There is no records click here to add new students.
+            </p>
+        </field>
+    </record>
+
+     <!-- Server Action-->
+    <record id="student_action_server" model="ir.actions.server">
+        <field name="name">Change State To Demonstrator</field>
+        <field name="model_id" ref="model_students"/>
+        <field name="binding_model_id" ref="model_students"/>
+        <field name="state">code</field>
+        <field name="code">
+            action = records.ChangeStateToDemonstrator()            
+        </field>
+    </record>
+
+    <record id="student_change_state_action_server" model="ir.actions.server">
+        <field name="name">Change State</field>
+        <field name="model_id" ref="model_students"/>
+        <field name="binding_model_id" ref="model_students"/>
+        <field name="state">code</field>
+        <field name="code">
+            action = records.Change_state_action_wizard()            
+        </field>
+    </record>
+
+    <!-- Automated Action-->
+    <record id="check_gradute_students_cron" model="ir.cron">
+        <field name="name">Gradute Students</field>
+        <field name="model_id" ref="model_students"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="state">code</field>
+        <field name="code">model.check_gradute_students()</field>
+        <field name="active">True</field>
+    </record>
+        
+    <menuitem
+        id="students_menu_item"
+        name="students"
+        parent="students_menu"
+        action="action_students"           
+    />    
+
+    <record id="List_view_action" model="ir.actions.client">
+        <field name="name">Students List View</field>
+        <field name="tag">app_one.action_List_view</field>
+        
+    </record>
+
+
+    <menuitem
+        id="students_list_view_menu_item"
+        name="students OWL"
+        parent="students_menu"
+        action="List_view_action"           
+    />
+
+
+</odoo>

@@ -1,0 +1,834 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* app_one
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-18 15:24+0000\n"
+"PO-Revision-Date: 2025-01-18 15:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_needaction
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_needaction
+#: model:ir.model.fields,field_description:app_one.field_students__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__active
+msgid "Active"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_ids
+#: model:ir.model.fields,field_description:app_one.field_students__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_exception_decoration
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_exception_decoration
+#: model:ir.model.fields,field_description:app_one.field_students__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_state
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_state
+#: model:ir.model.fields,field_description:app_one.field_students__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_type_icon
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_type_icon
+#: model:ir.model.fields,field_description:app_one.field_students__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Additional Information"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__age
+msgid "Age"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_attachment_count
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_attachment_count
+#: model:ir.model.fields,field_description:app_one.field_students__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_form
+msgid "Basic Information"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__model_a__major__cs
+#: model:ir.model.fields.selection,name:app_one.selection__students__major__cs
+msgid "CS"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_change_state_form
+msgid "Cancel"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.action_change_state_wizard
+#: model:ir.actions.server,name:app_one.student_change_state_action_server
+#: model_terms:ir.ui.view,arch_db:app_one.view_change_state_form
+msgid "Change State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.student_action_server
+msgid "Change State To Demonstrator"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__city
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__city
+msgid "City"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__student_city
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "City Name"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__code
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__code
+msgid "Code"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.configuration_menu
+msgid "Configuration"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_change_state_form
+msgid "Confirm"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.action_country
+#: model:ir.model.fields,field_description:app_one.field_students__country_id
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "Country"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "Country Code"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "Country Name"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "Country informations"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__create_uid
+#: model:ir.model.fields,field_description:app_one.field_country__create_uid
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__create_uid
+#: model:ir.model.fields,field_description:app_one.field_model_b__create_uid
+#: model:ir.model.fields,field_description:app_one.field_model_c__create_uid
+#: model:ir.model.fields,field_description:app_one.field_students__create_uid
+#: model:ir.model.fields,field_description:app_one.field_students_history__create_uid
+#: model:ir.model.fields,field_description:app_one.field_subjects__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__create_date
+#: model:ir.model.fields,field_description:app_one.field_country__create_date
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__create_date
+#: model:ir.model.fields,field_description:app_one.field_model_b__create_date
+#: model:ir.model.fields,field_description:app_one.field_model_c__create_date
+#: model:ir.model.fields,field_description:app_one.field_students__create_date
+#: model:ir.model.fields,field_description:app_one.field_students_history__create_date
+#: model:ir.model.fields,field_description:app_one.field_subjects__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_c__date
+msgid "Date"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__date_of_birth
+msgid "Date Of Birth"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Date Of Birth..."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__change_state__state__demonstrator
+#: model:ir.model.fields.selection,name:app_one.selection__students__state__demonstrator
+msgid "Demonstrator"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__desc
+msgid "Desc"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_tree
+msgid "Description"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Description..."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__display_name
+#: model:ir.model.fields,field_description:app_one.field_country__display_name
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__display_name
+#: model:ir.model.fields,field_description:app_one.field_model_a__display_name
+#: model:ir.model.fields,field_description:app_one.field_model_b__display_name
+#: model:ir.model.fields,field_description:app_one.field_model_c__display_name
+#: model:ir.model.fields,field_description:app_one.field_students__display_name
+#: model:ir.model.fields,field_description:app_one.field_students_history__display_name
+#: model:ir.model.fields,field_description:app_one.field_subjects__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_search
+msgid "Filters"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__subjects__level__first
+msgid "First"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_follower_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_follower_ids
+#: model:ir.model.fields,field_description:app_one.field_students__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_partner_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_partner_ids
+#: model:ir.model.fields,field_description:app_one.field_students__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__activity_type_icon
+#: model:ir.model.fields,help:app_one.field_country_inherited__activity_type_icon
+#: model:ir.model.fields,help:app_one.field_students__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__subjects__level__fourth
+msgid "Fourth"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.students_report_template
+msgid "General Information"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__students__state__graduate
+msgid "Graduate"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.check_gradute_students_cron_ir_actions_server
+msgid "Gradute Students"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_search
+msgid "Group By"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__has_message
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__has_message
+#: model:ir.model.fields,field_description:app_one.field_students__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.students_history_menu_item
+msgid "History"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.home_menu
+msgid "Home"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__id
+#: model:ir.model.fields,field_description:app_one.field_country__id
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__id
+#: model:ir.model.fields,field_description:app_one.field_model_a__id
+#: model:ir.model.fields,field_description:app_one.field_model_b__id
+#: model:ir.model.fields,field_description:app_one.field_model_c__id
+#: model:ir.model.fields,field_description:app_one.field_students__id
+#: model:ir.model.fields,field_description:app_one.field_students_history__id
+#: model:ir.model.fields,field_description:app_one.field_subjects__id
+msgid "ID"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__model_a__major__is
+#: model:ir.model.fields.selection,name:app_one.selection__students__major__is
+msgid "IS"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "IS Married..."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__model_a__major__it
+#: model:ir.model.fields.selection,name:app_one.selection__students__major__it
+msgid "IT"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_exception_icon
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_exception_icon
+#: model:ir.model.fields,field_description:app_one.field_students__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__activity_exception_icon
+#: model:ir.model.fields,help:app_one.field_country_inherited__activity_exception_icon
+#: model:ir.model.fields,help:app_one.field_students__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__message_needaction
+#: model:ir.model.fields,help:app_one.field_country_inherited__message_needaction
+#: model:ir.model.fields,help:app_one.field_students__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__message_has_error
+#: model:ir.model.fields,help:app_one.field_country__message_has_sms_error
+#: model:ir.model.fields,help:app_one.field_country_inherited__message_has_error
+#: model:ir.model.fields,help:app_one.field_country_inherited__message_has_sms_error
+#: model:ir.model.fields,help:app_one.field_students__message_has_error
+#: model:ir.model.fields,help:app_one.field_students__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_is_follower
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_is_follower
+#: model:ir.model.fields,field_description:app_one.field_students__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__is_gradute
+msgid "Is Gradute"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_a__is_married
+#: model:ir.model.fields,field_description:app_one.field_students__is_married
+msgid "Is Married"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_c__is_show
+msgid "Is Show"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__write_uid
+#: model:ir.model.fields,field_description:app_one.field_country__write_uid
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__write_uid
+#: model:ir.model.fields,field_description:app_one.field_model_b__write_uid
+#: model:ir.model.fields,field_description:app_one.field_model_c__write_uid
+#: model:ir.model.fields,field_description:app_one.field_students__write_uid
+#: model:ir.model.fields,field_description:app_one.field_students_history__write_uid
+#: model:ir.model.fields,field_description:app_one.field_subjects__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__write_date
+#: model:ir.model.fields,field_description:app_one.field_country__write_date
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__write_date
+#: model:ir.model.fields,field_description:app_one.field_model_b__write_date
+#: model:ir.model.fields,field_description:app_one.field_model_c__write_date
+#: model:ir.model.fields,field_description:app_one.field_students__write_date
+#: model:ir.model.fields,field_description:app_one.field_students_history__write_date
+#: model:ir.model.fields,field_description:app_one.field_subjects__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_subjects__level
+msgid "Levels"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_a__major
+#: model:ir.model.fields,field_description:app_one.field_students__major
+#: model_terms:ir.ui.view,arch_db:app_one.students_report_template
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_search
+msgid "Major"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_has_error
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_has_error
+#: model:ir.model.fields,field_description:app_one.field_students__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_ids
+#: model:ir.model.fields,field_description:app_one.field_students__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_model_c
+msgid "Model C"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__my_activity_date_deadline
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__my_activity_date_deadline
+#: model:ir.model.fields,field_description:app_one.field_students__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__name
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__name
+#: model:ir.model.fields,field_description:app_one.field_model_a__name
+#: model:ir.model.fields,field_description:app_one.field_model_b__name
+#: model:ir.model.fields,field_description:app_one.field_students__name
+#: model_terms:ir.ui.view,arch_db:app_one.students_report_template
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_form
+msgid "Name"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Name..."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__change_state__state__new
+#: model:ir.model.fields.selection,name:app_one.selection__students__state__new
+msgid "New"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students_history__new_state
+msgid "New State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_date_deadline
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_date_deadline
+#: model:ir.model.fields,field_description:app_one.field_students__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_summary
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_summary
+#: model:ir.model.fields,field_description:app_one.field_students__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_type_id
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_type_id
+#: model:ir.model.fields,field_description:app_one.field_students__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_a__no
+#: model:ir.model.fields,field_description:app_one.field_model_b__no
+#: model:ir.model.fields,field_description:app_one.field_students__no
+msgid "No"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_tree
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_form
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_tree
+msgid "Number"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_needaction_counter
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_needaction_counter
+#: model:ir.model.fields,field_description:app_one.field_students__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_has_error_counter
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_has_error_counter
+#: model:ir.model.fields,field_description:app_one.field_students__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__message_needaction_counter
+#: model:ir.model.fields,help:app_one.field_country_inherited__message_needaction_counter
+#: model:ir.model.fields,help:app_one.field_students__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__message_has_error_counter
+#: model:ir.model.fields,help:app_one.field_country_inherited__message_has_error_counter
+#: model:ir.model.fields,help:app_one.field_students__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Number..."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students_history__old_state
+msgid "Old State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_b__price
+msgid "Price"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__reason
+#: model:ir.model.fields,field_description:app_one.field_students_history__reason
+msgid "Reason"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__ref
+msgid "Ref"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Registry Information"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__activity_user_id
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__activity_user_id
+#: model:ir.model.fields,field_description:app_one.field_students__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__message_has_sms_error
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__message_has_sms_error
+#: model:ir.model.fields,field_description:app_one.field_students__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__subjects__level__second
+msgid "Second"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Set To Demonstrator"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Set To Graduate"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Set To New"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__state
+#: model_terms:ir.ui.view,arch_db:app_one.students_report_template
+msgid "State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__state
+msgid "Status"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__activity_state
+#: model:ir.model.fields,help:app_one.field_country_inherited__activity_state
+#: model:ir.model.fields,help:app_one.field_students__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__student_id
+#: model:ir.model.fields,field_description:app_one.field_sale_order__student_id
+#: model:ir.model.fields,field_description:app_one.field_students_history__student_id
+msgid "Student"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_students
+msgid "Student Record"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.report,name:app_one.student_report
+#: model_terms:ir.ui.view,arch_db:app_one.students_report_template
+msgid "Student Report"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.students_menu
+msgid "Students"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.action_students_history
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_history_form
+msgid "Students History"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_form
+msgid "Subject Informations"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_subjects__name
+msgid "Subject Name"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_subjects__no_subject
+msgid "Subject Number"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students__subjects_ids
+#: model:ir.ui.menu,name:app_one.subjects_menu_item
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+#: model_terms:ir.ui.view,arch_db:app_one.view_subjects_form
+msgid "Subjects"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_country_form
+msgid "The Students In this Conuntry"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.actions.act_window,help:app_one.action_country
+msgid "There is no examples click here to add new Country."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.actions.act_window,help:app_one.action_subjects
+msgid "There is no examples click here to add new subjects."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.actions.act_window,help:app_one.action_students
+msgid "There is no records click here to add new students."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__subjects__level__third
+msgid "Third"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.constraint,message:app_one.constraint_country_inherited_unique_name
+#: model:ir.model.constraint,message:app_one.constraint_country_unique_name
+#: model:ir.model.constraint,message:app_one.constraint_students_unique_name
+#: model:ir.model.constraint,message:app_one.constraint_subjects_unique_name
+msgid "This name is existed"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.constraint,message:app_one.constraint_country_inherited_unique_no
+#: model:ir.model.constraint,message:app_one.constraint_country_unique_no
+#: model:ir.model.constraint,message:app_one.constraint_students_unique_no
+#: model:ir.model.constraint,message:app_one.constraint_subjects_unique_no
+msgid "This number is existed"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__activity_exception_decoration
+#: model:ir.model.fields,help:app_one.field_country_inherited__activity_exception_decoration
+#: model:ir.model.fields,help:app_one.field_students__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_students_history__user_id
+msgid "User"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_country__website_message_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__website_message_ids
+#: model:ir.model.fields,field_description:app_one.field_students__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_country__website_message_ids
+#: model:ir.model.fields,help:app_one.field_country_inherited__website_message_ids
+#: model:ir.model.fields,help:app_one.field_students__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_search
+msgid "With Married"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Your Age..."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "Your Major..."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "action env"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_change_state
+msgid "change.state"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.country_menu_item
+msgid "countries"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_country
+msgid "country Record"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_country_inherited
+msgid "country.inherited"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_model_a
+msgid "model.a"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_model_b
+msgid "model.b"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_model_d
+msgid "model.d"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid ""
+"options=\"{'clickable': True}\" if you want from user change the state by "
+"self use this attribute :  clickable , if you want to write code to "
+"implement the system auto change the state"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_students_history
+msgid "student history"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.action_students
+#: model:ir.model.fields,field_description:app_one.field_country__students_ids
+#: model:ir.model.fields,field_description:app_one.field_country_inherited__students_ids
+#: model:ir.ui.menu,name:app_one.students_menu_item
+#: model_terms:ir.ui.view,arch_db:app_one.view_students_form
+msgid "students"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.action_subjects
+#: model:ir.model,name:app_one.model_subjects
+msgid "subjects"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_model_c__note
+msgid "write your note here"
+msgstr ""

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data> 
+        <!-- ref filed -->
+        <record id="student_sequence" model="ir.sequence">
+            <field name="name">students seq.</field>
+            <field name="code">students_seq</field> <!-- named of code attr: students_seq as variable conditions name-->
+            <field name="prefix">Student</field>
+            <field name="padding">5</field>
+            <field name="suffix">-%(day)s-%(month)s-%(y)s</field>
+        </record>
+    </data>
+</odoo>

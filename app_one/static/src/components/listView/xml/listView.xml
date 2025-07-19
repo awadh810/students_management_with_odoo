@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<templates xml:space="preserve">
+    <t t-name="app_one.ListView">
+        <!-- template code -->
+        <h1>Hello World</h1>
+        <div style="height: 10%;" class="center">
+
+        <div style="background-color: rgb(194, 194, 194); padding: 20px; box-shadow: 0px 10px rgba(0, 0, 0, 0.3);">
+            
+            <div>
+
+                <h1>تسجيل الدخول</h1>
+                <hr/>
+                <h3>الإيميل</h3>
+                <input id="email-input" type="email" />
+
+                <h3>الرمز السري</h3>
+                <input id="password-input" type="password" />
+
+                <button id="login-btn" style="display: block; margin-top: 20px;">
+                    تسجيل الدخول
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    </t>
+
+</templates>

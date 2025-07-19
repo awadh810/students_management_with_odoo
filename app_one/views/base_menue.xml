@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- This Is The Root Menue-->
+    <menuitem
+        id="home_menu"
+        name="Home" 
+        web_icon="app_one,static/description/icon2.png"
+    />
+
+    <!-- These are The Mains Or Base Menue Inside The App-->
+    <menuitem
+        id="students_menu"
+        name="Students"
+        parent="home_menu" 
+    />
+    <menuitem
+        id="configuration_menu"
+        name="Configuration"
+        parent="home_menu" 
+        groups="app_one.student_manger_group"  
+    />
+</odoo>
+
+<!-- USED the groups attribute to restricted menus on the user on display screen-->
